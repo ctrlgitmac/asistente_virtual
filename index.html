@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asistente Virtual - Reserva de Citas Médicas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <h1>Asistente de Reservas Médicas</h1>
     <p id="liveText" aria-live="assertive">Diga algo para ver el texto en tiempo real...</p>
-    <button id="speakButton" onclick="toggleRecognition()">Hablar / Detener</button>
+    <button id="speakButton" onclick="toggleRecognition()">
+      <i class="fa-solid fa-microphone"></i>
+    </button>
     <p id="output">Presiona el botón para hablar.</p>
   </div>
 
